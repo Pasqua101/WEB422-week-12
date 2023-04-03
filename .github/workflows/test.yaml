@@ -1,0 +1,17 @@
+
+name: Build and Deploy
+on:
+  push:
+    braches: #Branhces
+      - main #main branch
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest #Can select which OS to use
+    steps:
+      - name: Install Dep
+      run: npm install
+
+      - name: Build
+      run: npm run build
+
+
