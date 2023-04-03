@@ -2,7 +2,7 @@
 name: Build and Deploy
 on:
   push:
-    braches: #Branhces
+    branches: #Branhces
       - main #main branch
 jobs:
   build-and-test:
